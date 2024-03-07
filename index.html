@@ -1,0 +1,55 @@
+   de Guillermo/manitoo  para Duda/Dudinha
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♥ para duda ♥</title>
+  <style>
+    .body {
+      background-color: rgb(255, 109, 199);
+      text-align: center;
+    }
+
+    .body__title {
+      color: white;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <h1 class="body__title">♥ voce quer ser minha puthina, minha meninha gostosa safada ♥</h1>
+  <img src="https://www.mascotasmania.es/wp-content/uploads/2022/06/como-hacer-que-dos-gatos-se-lleven-bien-ok.jpg" alt="Foto D My" class="body__img" />
+  <br>
+  <button id="yes">SiiM❤</button>
+  <button id="no">Nao＞﹏＜</button>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const meninha = () => {
+      alert('Eu sabia que você diria sim ❣');
+      alert('Te Quiero❤');
+      location.href = 'https://www.youtube.com/watch?v=bxdcPMCJb3w';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', meninha);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
